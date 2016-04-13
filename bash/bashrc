@@ -1,0 +1,44 @@
+#
+# ~/.bashrc
+#
+## alias
+alias ls='ls -G'
+alias ll='ls -lart'
+alias c='cd ..'
+alias bc='bc -l'
+alias grep='grep --color=auto'
+
+# Tmux color setup
+[ -z "$TMUX" ] && export TERM=xterm-256color
+
+# Enable tab complete commands
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+function cdl { cd "$1"; ll;}
+
+## exports
+
+# set PATH variable
+export PATH=$HOME/Scripts:$PATH
+
+# Default browser
+export BROWSER="chromium"
+
+# Default terminal emulator
+export TERMINAL="terminator"
+
+# Default text editor
+export EDITOR="vim"
+
+## Confs
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session ​*as a function*​
+
+# User executables directory
+  [ ! -z "$BIN" ] && { PATH=./:$BIN:"${PATH}"; }

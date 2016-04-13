@@ -1,0 +1,7 @@
+sudo apt-get install dunst
+sudo apt-get install ranger caca-utils highlight atool w3m poppler-utils mediainfo
+sudo apt-get install terminator
+sudo apt-get install tmux
+sudo apt-get install ranger
+sudo apt-get install vim
+sudo add-apt-repository ppa:noobslab/apps -y && sudo apt-get update && sudo apt-get install indicator-synapse -y

@@ -1,0 +1,32 @@
+{
+  "auto_complete_commit_on_tab": true,
+  "auto_complete_with_fields": true,
+  // Destaca pastas.
+  "bold_folder_labels": true,
+  "caret_style": "solid",
+  "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+  "detect_indentation": true,
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "fade_fold_buttons": false,
+  "font_size": 10,
+  "highlight_line": true,
+  // ignora o modo vintage
+  "ignored_packages":
+  [
+    "SideBarEnhancements",
+    "Vintage"
+  ],
+  "original_color_scheme": "Packages/Base16 Color Schemes/base16-tomorrow.dark.tmTheme",
+  // Oculta a exibição do caminho absoluto do arquivo.
+  "show_full_path": true,
+  // Define a quantidade de espaços.
+  "tab_size": 2,
+  // Define espaços ao invés de tab.
+  "translate_tabs_to_spaces": true,
+  // Remover espaços em branco na hora de salvar o arquivo.
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false,
+  // Mostra que o arquivo foi alterado e não foi salvo ainda.
+  "highlight_modified_tabs": true
+}
